@@ -37,8 +37,8 @@ require('dotenv').config({
 
 const BUNDLE_ID = 'com.practicetimer'; // ios bundle id
 const PACKAGE = 'com.practicetimer'; // android package name
-const NAME = 'practicetimer'; // app name
-const EXPO_ACCOUNT_OWNER = 'expo-owner'; // expo account owner
+const NAME = 'Practice Timer'; // app name
+const EXPO_ACCOUNT_OWNER = 'lcarroll025390'; // expo account owner
 const EAS_PROJECT_ID = '724a784b-044b-4b3a-8afc-309bef271c41'; // eas project id
 const SCHEME = 'practicetimer'; // app scheme
 
