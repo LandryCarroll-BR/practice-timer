@@ -39,7 +39,7 @@ const BUNDLE_ID = 'com.practicetimer'; // ios bundle id
 const PACKAGE = 'com.practicetimer'; // android package name
 const NAME = 'practicetimer'; // app name
 const EXPO_ACCOUNT_OWNER = 'expo-owner'; // expo account owner
-const EAS_PROJECT_ID = 'c3e1075b-6fe7-4686-aa49-35b46a229044'; // eas project id
+const EAS_PROJECT_ID = '724a784b-044b-4b3a-8afc-309bef271c41'; // eas project id
 const SCHEME = 'practicetimer'; // app scheme
 
 /**
