@@ -33,6 +33,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   newArchEnabled: true,
   updates: {
     fallbackToCacheTimeout: 0,
+    url: `https://u.expo.dev/${Env.EAS_PROJECT_ID}`,
   },
   assetBundlePatterns: ['**/*'],
   ios: {
@@ -55,6 +56,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   web: {
     favicon: './assets/favicon.png',
     bundler: 'metro',
+    output: 'server',
   },
   plugins: [
     [
